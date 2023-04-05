@@ -1,7 +1,7 @@
-# qq2excel
+# 这是什么
 将导出的qq聊天记录文件txt转换为excel
 
-# 需要的依赖
+# 需要的库
 需要安装用来写入excel的库:
 
 pip install xlwt
