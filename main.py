@@ -17,7 +17,7 @@ while num < len(text):  # 逐行读入进行处理
     content = text[num]
 
     # content是这条聊天记录的内容，可能有多行，因此需要使用while
-    while num + 1 < len(text) and (text[num + 1][:3] != '202' or text[num + 1][4] != '-' or text[num + 1][7] != '-'):
+    while num + 1 < len(text) and (text[num + 1][:3] != '20' or text[num + 1][4] != '-' or text[num + 1][7] != '-'):
         num += 1
         content += text[num]
     num += 1
